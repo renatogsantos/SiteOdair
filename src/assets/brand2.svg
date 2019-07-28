@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="72.4934mm" height="31.7017mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 7249.32 3170.16"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil5 {fill:url(#id0)}
+    .fil6 {fill:url(#id1)}
+    .fil1 {fill:url(#id2)}
+    .fil2 {fill:url(#id3)}
+    .fil3 {fill:url(#id4)}
+    .fil7 {fill:url(#id5)}
+    .fil0 {fill:url(#id6)}
+    .fil4 {fill:url(#id7)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="3535.38" y1="713.97" x2="7248.78" y2="713.97">
+   <stop offset="0" style="stop-opacity:1; stop-color:#6E6E6E"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:white"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="4134.05" y1="2492.62" x2="6705.58" y2="2492.62">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="112.89" y1="713.97" x2="3826.29" y2="713.97">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="711.56" y1="2492.62" x2="3283.08" y2="2492.62">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" x1="1123.76" y1="1883.14" x2="342.66" y2="2383.52">
+   <stop offset="0" style="stop-opacity:1; stop-color:black"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#D6D6D6"/>
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id4" x1="4546.25" y1="1883.14" x2="3765.16" y2="2383.52">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id4" x1="3746.08" y1="753.58" x2="2483.53" y2="2497.38">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id4" x1="7168.58" y1="753.58" x2="5906.03" y2="2497.38">
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_941669872">
+   <path class="fil0" d="M3797.36 1429.42c-49.9,217.52 -160.9,412.27 -313.67,565.14 -211.72,211.62 -504.05,343.15 -825.74,343.15l-206.95 0 -521.33 -521.22 728.28 0c177.77,0 339.69,-73.08 457.09,-190.58 117.5,-117.4 190.48,-279.22 190.48,-456.99 0,-177.98 -72.98,-339.7 -190.48,-457.2 -117.4,-117.5 -279.32,-190.48 -457.09,-190.48 321.7,0 614.03,131.43 825.74,343.05 152.77,152.97 263.77,347.72 313.67,565.14l0 -0.01z"/>
+   <path class="fil1" d="M113.19 0l2544.75 0c321.7,0 614.03,131.43 825.74,343.05 211.73,211.82 343.15,503.95 343.15,825.65 0,89.55 -10.26,176.86 -29.48,260.72 -49.9,-217.42 -160.9,-412.17 -313.67,-565.14 -211.72,-211.62 -504.05,-343.05 -825.74,-343.05l-2023.42 0 -521.33 -521.22 0 -0.01z"/>
+   <path class="fil2" d="M1713.78 2337.7l832.46 832.46 737.22 0 -1353.79 -1353.69c-431.68,0 -264.89,0 -696.57,0l-521.33 521.22c545.42,0 456.58,0 1002.01,0l0 0.01z"/>
+   <polygon class="fil3" points="1155.49,1816.47 798.21,1816.47 735.8,1816.47 556.91,1816.47 -0,2337.7 634.16,2337.7 "/>
+   <path class="fil4" d="M7219.86 1429.42c-49.91,217.52 -160.9,412.27 -313.68,565.14 -211.72,211.62 -504.05,343.15 -825.74,343.15l-206.95 0 -521.33 -521.22 728.28 0c177.77,0 339.69,-73.08 457.09,-190.58 117.5,-117.4 190.48,-279.22 190.48,-456.99 0,-177.98 -72.98,-339.7 -190.48,-457.2 -117.4,-117.5 -279.32,-190.48 -457.09,-190.48 321.7,0 614.03,131.43 825.74,343.05 152.78,152.97 263.77,347.72 313.68,565.14l0 -0.01z"/>
+   <path class="fil5" d="M3535.68 0l2544.75 0c321.7,0 614.03,131.43 825.74,343.05 211.73,211.82 343.15,503.95 343.15,825.65 0,89.55 -10.26,176.86 -29.47,260.72 -49.91,-217.42 -160.9,-412.17 -313.68,-565.14 -211.72,-211.62 -504.05,-343.05 -825.74,-343.05l-2023.42 0 -521.33 -521.22 0 -0.01z"/>
+   <path class="fil6" d="M5136.27 2337.7l832.46 832.46 737.23 0 -1353.8 -1353.69c-431.68,0 -264.88,0 -696.57,0l-521.33 521.22c545.42,0 456.59,0 1002.01,0l0 0.01z"/>
+   <polygon class="fil7" points="4577.98,1816.47 4220.7,1816.47 4158.3,1816.47 3979.4,1816.47 3422.5,2337.7 4056.64,2337.7 "/>
+  </g>
+ </g>
+</svg>
