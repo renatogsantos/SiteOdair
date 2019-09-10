@@ -10587,6 +10587,15 @@ h1 {
   }
 }
 
+p {
+  margin: 0;
+}
+
+small {
+  font-size: 12px;
+  color: grey;
+}
+
 .bg-color {
   background-color: #fff;
 }
@@ -10605,7 +10614,9 @@ h1 {
   height: 10px;
   width: 15%;
   margin: 15px 0;
-  background-color: #fff;
+  background: #022453;
+  background: -webkit-gradient(linear, left top, right top, from(#022453), to(#3d79cf));
+  background: linear-gradient(90deg, #022453 0%, #3d79cf 100%);
 }
 
 .img-grey:not(hover) {
