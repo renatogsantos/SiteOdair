@@ -10577,8 +10577,14 @@ body {
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 6.5vw;
   font-weight: 800;
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 9vw;
+  }
 }
 
 .bg-color {
@@ -10745,11 +10751,11 @@ ul {
 }
 
 .social-icons li a {
-  color: #fff;
+  color: #252525;
 }
 
 .social-icons li a:hover {
-  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.8);
+  color: grey;
   -webkit-transition: .5s;
   transition: .5s;
 }
