@@ -10565,6 +10565,8 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -10644,13 +10646,6 @@ small {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-}
-
-.wall-m {
-  background-image: url("../assets/wallhome.svg");
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 
 .button-rounded:not(hover) {

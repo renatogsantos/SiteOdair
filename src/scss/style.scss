@@ -5,6 +5,7 @@
 *{
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
+  padding: 0; margin: 0;
 }
 body{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 25, 59, 0.8) 100%), url("../assets/wall.png");
@@ -65,12 +66,6 @@ small {
   background-repeat:no-repeat;
   background-size:cover;
   color: #fff;
-}
-.wall-m{
-  background-image:url("../assets/wallhome.svg");
-  background-position: bottom;
-  background-repeat:no-repeat;
-  background-size: 100%;
 }
 .button-rounded:not(hover){
   box-shadow:0px 10px 10px rgba(0, 0, 0, 0.3);
