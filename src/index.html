@@ -14,15 +14,14 @@
   <!-- Bootstrap CSS -->
   <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="scss/style.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/swiper.min.css">
 </head>
 
 <body class="">
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand scroll" href="#top"><img src="assets/brand2.svg" width="50px" alt="RR">
+    <a class="navbar-brand" href="#top"><img src="assets/brand2.svg" width="50px" alt="RR">
       <small style="color:white;">Odair Rodrigues</small></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -31,28 +30,28 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link scroll" href="#top">Home</a>
+          <a class="nav-link" href="#top">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#about">Sobre Nós</a>
+          <a class="nav-link" href="#about">Sobre Nós</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#consultoria">Consultoria</a>
+          <a class="nav-link" href="#consultoria">Consultoria</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#contato">Contato</a>
+          <a class="nav-link" href="#contato">Contato</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#contato"><i class="fab fa-facebook-square"></i></a>
+          <a class="nav-link" href="#contato"><i class="fab fa-facebook-square"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#contato"><i class="fab fa-instagram"></i></a>
+          <a class="nav-link" href="https://www.instagram.com/representacaorodrigues/?igshid=wbfe3il8279e" target="_blank"><i class="fab fa-instagram"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#contato"><i class="fab fa-linkedin"></i></a>
+          <a class="nav-link" href="#contato"><i class="fab fa-linkedin"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link scroll" href="#contato"><i class="fab fa-whatsapp"></i></a>
+          <a class="nav-link" href="#contato"><i class="fab fa-whatsapp"></i></a>
         </li>
       </ul>
     </div>
@@ -60,7 +59,7 @@
   <!--Navbar-->
 
   <!--home-->
-  <div class="container-fluid pt-5 pb-5 text-light" id="top">
+  <div class="container-fluid pt-5 pb-5 text-light wall-m" id="top">
     <div class="container pt-5 pb-5">
       <div class="align-items-center">
         <h1>REPRESENTAÇÃO RODRIGUES</h1>
@@ -70,7 +69,7 @@
         <p>Há 28 anos no mercado, trabalhando com as melhores marcas de acessórios do Brasil.</p>
         <p>Entre em contato e saiba mais!</p>
         <br>
-        <a class="button-rounded scroll" href="#about">SOBRE NÓS</a>
+        <a class="button-rounded" href="#about">SOBRE NÓS</a>
       </div>
     </div>
   </div>
@@ -111,12 +110,12 @@
       <p>Além de representação, trabalhamos com consultoria na parte de vendas da sua empresa.</p>
       <br>
     </div>
-    <a class="button-rounded scroll" href="#consultoria">CONSULTORIA</a>
+    <a class="button-rounded" href="#consultoria">CONSULTORIA</a>
   </div>
   <!--intro-->
 
   <!--cards-->
-  <div class="container-fluid pt-5 pb-5 text-center">
+  <div class="container-fluid pt-5 pb-5 text-center wall-m">
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-lg-4 col-sm-12">
@@ -158,7 +157,7 @@
       <h2>CONSULTORIA PARA SUA EMPRESA OU NEGÓCIO</h2>
     </div>
   </div>
-  <div class="container-fluid pt-5 pb-5 text-light">
+  <div class="container-fluid pt-5 pb-5 text-light wall-m">
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-lg-6">
@@ -184,9 +183,11 @@
   <div class="container-fluid pt-5 pb-5 bg-color" id="contato">
     <div class="container pt-5 pb-5">
       <h1>CONTATO</h1>
-      <div class="media">
-        <img class="mr-3" src="assets/svg/maps-and-flags-1.svg">
-        <div class="media-body">
+      <div class="row">
+        <div class="col-lg-2">
+          <img class="mr-3" width="150px" src="assets/svg/maps-and-flags-1.svg">
+        </div>
+        <div class="col-lg-10">
           <h5 class="mt-0">ENTRE EM CONTATO</h5>
           <p>Entre em contato e tire suas dúvidas, você pode falar direto comigo através do botão de contato via
             "Whatsapp" ali no cantinho, ou se preferir, me mande um e-mail, ficarei feliz em te responder.</p>
@@ -194,20 +195,16 @@
             Rodrigues! Basta entrar em contato para que possamos agendar uma data!</p>
           <ul class="social-icons">
             <li><a href="#" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://www.instagram.com/representacaorodrigues/" target="_blank"><i
-                  class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/representacaorodrigues/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+            <li><a href="https://wa.me/5511962898616?text=Olá%20Odair,%20pode%20me%20ajudar?" title="Entre em contato!" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
           </ul>
         </div>
       </div>
     </div>
   </div>
   <!--contato-->
-  <div class="fixed-bottom text-danger">
-    <p>Site em construção</p>
-  </div>
   <div class="container-fluid m-0 bg-dark text-center text-light">
     <small>Todos os direitos reservados - Representação Rodrigues 2019</small>
   </div>

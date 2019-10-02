@@ -10564,6 +10564,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 * {
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -10598,7 +10599,6 @@ small {
 
 .bg-color {
   background: white;
-  background: radial-gradient(circle, white 0%, #ecf2fa 100%);
 }
 
 .bg-color2 {
@@ -10647,23 +10647,7 @@ small {
 }
 
 .wall-m {
-  background: url("../assets/wall-m.svg");
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.wall-m1 {
-  background: url("../assets/wall-m1.svg");
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
-
-.wallhome2 {
-  background: url("../assets/wallhome2.svg"), -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(rgba(20, 61, 119, 0.883)));
-  background: url("../assets/wallhome2.svg"), linear-gradient(rgba(255, 255, 255, 0), rgba(20, 61, 119, 0.883));
-  background-color: #fff;
+  background-image: url("../assets/wallhome.svg");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100%;

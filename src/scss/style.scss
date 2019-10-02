@@ -4,6 +4,7 @@
 
 *{
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 body{
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 25, 59, 0.8) 100%), url("../assets/wall.png");
@@ -30,8 +31,7 @@ small {
   color:grey;
 }
 .bg-color{
-  background: rgb(255,255,255);
-  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,242,250,1) 100%);
+  background: white;
 }
 .bg-color2{
   background-color:rgba(255, 255, 255, 0.9);
@@ -67,26 +67,10 @@ small {
   color: #fff;
 }
 .wall-m{
-  background:url("../assets/wall-m.svg");
-  //background-attachment: fixed;
-  background-position: top center;
-  background-repeat:no-repeat;
-  background-size:100%;
-}
-.wall-m1{
-  background:url("../assets/wall-m1.svg");
-  //background-attachment: fixed;
-  background-position: bottom center;
-  background-repeat:no-repeat;
-  background-size:100%;
-}
-.wallhome2{
-  background:url("../assets/wallhome2.svg"),linear-gradient(rgba(255, 255, 255, 0),rgba(20, 61, 119, 0.883));
-  //background-attachment: fixed;
-  background-color: #fff;
+  background-image:url("../assets/wallhome.svg");
   background-position: bottom;
   background-repeat:no-repeat;
-  background-size:100%;
+  background-size: 100%;
 }
 .button-rounded:not(hover){
   box-shadow:0px 10px 10px rgba(0, 0, 0, 0.3);
