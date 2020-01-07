@@ -68,7 +68,7 @@ small {
   color: #fff;
 }
 .button-rounded:not(hover){
-  box-shadow:0px 10px 10px rgba(0, 0, 0, 0.3);
+  box-shadow:0px 3px 3px rgba(0, 0, 0, 0.3);
   border-radius:20px 50px;
   background: #141E30;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #141E30, #243B55);  /* Chrome 10-25, Safari 5.1-6 */
@@ -82,7 +82,7 @@ small {
   transition: .4s;
 }
 .button-rounded:hover{
-  box-shadow:0px 10px 30px rgba(0, 0, 0, 0.3);
+  box-shadow:0px 5px 5px rgba(0, 0, 0, 0.3);
   border-radius:50px 20px;
   background: #141E30;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #141E30, #243B55);  /* Chrome 10-25, Safari 5.1-6 */
