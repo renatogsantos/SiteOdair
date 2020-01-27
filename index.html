@@ -17,9 +17,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+	<script>
+		ScrollReveal({ duration: 1000 })
+  </script>
 </head>
 
-<body class="">
+<body class="no-copy">
   <!--Navbar-->
   <nav class="navbar navbar-expand-lg navbar-dark border-bottom fixed-top">
     <a class="navbar-brand" href="#top"><img src="assets/brand2.svg" width="50px" alt="RR">
@@ -34,7 +37,7 @@
           <a class="nav-link" href="#top">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#about">Sobre Nós</a>
+          <a class="nav-link" href="#about">Sobre</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#consultoria">Consultoria</a>
@@ -69,7 +72,7 @@
       <p class="show-3">Há 28 anos no mercado, trabalhando com as melhores marcas de acessórios do Brasil.</p>
       <p class="show-3">Entre em contato e saiba mais!</p>
       <br>
-      <a class="button-rounded" href="#about">SOBRE NÓS</a>
+      <a class="button-rounded" href="#about">SAIBA MAIS</a>
     </div>
   </div>
   <!--home-->
@@ -77,7 +80,7 @@
   <!--intro-->
   <div class="container-fluid pt-5 pb-5 text-center bg-color" id="about">
     <div class="container pt-5 pb-5">
-      <img class="show-2 slide slide-bck-center" src="assets/svg/worker.svg" width="150px" height="" alt="presentation-1">
+      <img class="vibrate-1 show-2 slide" src="assets/svg/worker.svg" width="150px" height="" alt="presentation-1">
       <h2 class="show-2 slide">SOBRE NÓS</h2>
       <h3 class="show-2 slide">CONHEÇA MAIS SOBRE A REPRESETAÇÃO RODRIGUES</h3>
       <hr>
@@ -118,7 +121,7 @@
       <div class="row">
         <div class="col-lg-4 col-sm-12">
           <div class="my-card p-3 text-align slide show-2">
-            <img src="assets/svg/boss-2.svg" width="150px" alt="" class="pb-5 slide-bck-center">
+            <img src="assets/svg/boss-2.svg" width="150px" alt="" class="pb-5 vibrate-1">
             <h2>OBJETIVO</h2>
             <hr>
             <p class="show-3">Oferecer a melhor representação do mercado e agregar todo o potencial necessário para evolução!</p>
@@ -126,7 +129,7 @@
         </div>
         <div class="col-lg-4 col-sm-12">
           <div class="my-card p-3 text-align slide show-2">
-            <img src="assets/svg/line-chart.svg" width="150px" alt="" class="pb-5 slide-bck-center">
+            <img src="assets/svg/line-chart.svg" width="150px" alt="" class="pb-5 vibrate-1">
             <h2>METAS</h2>
             <hr>
             <p class="show-3">Trazer os melhores resultados para sua empresa ou marca, trabalhando arduamente para
@@ -135,7 +138,7 @@
         </div>
         <div class="col-lg-4 col-sm-12">
           <div class="my-card p-3 text-align slide show-2">
-            <img src="assets/svg/maps-and-flags-3.svg" width="150px" alt="" class="pb-5 slide-bck-center">
+            <img src="assets/svg/maps-and-flags-3.svg" width="150px" alt="" class="pb-5 vibrate-1">
             <h2>CONFIANÇA</h2>
             <hr>
             <p class="show-3">Selecionamos as melhores marcas com o intuito de trazer os melhores produtos do mercado de acessórios.
@@ -152,7 +155,7 @@
   
   <div class="container-fluid pt-5 pb-5 bg-color text-center" id="consultoria">
     <div class="container pt-5 pb-5">
-      <img class="slide-bck-center show-3 slide" src="assets/svg/business-presentation.svg" width="150px" alt="">
+      <img class="vibrate-1 show-3 slide" src="assets/svg/business-presentation.svg" width="150px" alt="">
       <h2 class="show-2 slide">CONSULTORIA</h2>
       <h3 class="show-2 slide">CONSULTORIA PARA SUA EMPRESA OU NEGÓCIO</h3>
     </div>
@@ -164,7 +167,7 @@
       <div class="row">
         <div class="col-lg-6">
           <h2 class="show-2 slide">COMO FUNCIONA?</h2>
-          <hr>
+          <div class="divisor"></div>
           <p class="show-3">A Representação Rodrigues oferece consultoria para sua empresa ou negócio, a fim de levantar as
             necessidades do cliente, por meio de diagnósticos e processos, identificar soluções e, então, recomendar
             ações de melhoria.<br><br>Depois que o consultor consegue reunir todas as informações relacionadas, ele
@@ -174,7 +177,7 @@
             Entre em contato e saiba mais!</p>
         </div>
         <div class="col-lg-6">
-          <img class="slide-bck-center slide show-3" src="assets/consultoria.svg" width="100%" height="400px" alt="">
+          <img class="vibrate-1 slide show-3" src="assets/consultoria.svg" width="100%" height="400px" alt="">
         </div>
       </div>
     </div>
@@ -186,9 +189,6 @@
     <div class="container pt-5 pb-5">
       <h2 class="show-2 slide">CONTATO</h2>
       <div class="row">
-        <div class="col-lg-2">
-          <img class="mr-3" width="150px" src="assets/svg/maps-and-flags-1.svg">
-        </div>
         <div class="col-lg-10">
           <h3 class="mt-0">ENTRE EM CONTATO</h3>
           <p class="show-3">Entre em contato e tire suas dúvidas, você pode falar direto comigo através do botão de contato via
@@ -203,6 +203,9 @@
             <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://wa.me/5511962898616?text=Olá%20Odair,%20pode%20me%20ajudar?" title="Entre em contato!" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
           </ul>
+        </div>
+        <div class="col-lg-2">
+          <img class="mr-3" width="150px" src="assets/svg/maps-and-flags-1.svg">
         </div>
       </div>
       <!-- <div>
@@ -219,16 +222,17 @@
   <!-- Optional JavaScript -->
   <script>
     ScrollReveal({ reset: true });
-		ScrollReveal().reveal('.show-1', {deley: 200 })
-		ScrollReveal().reveal('.show-2', { delay: 400 })
-		ScrollReveal().reveal('.show-3', { delay: 800 })
+		ScrollReveal().reveal('.show-1', {deley: 100 })
+		ScrollReveal().reveal('.show-2', { delay: 300 })
+		ScrollReveal().reveal('.show-3', { delay: 500 })
     var slideUp = {
-      distance: '30%',
+      distance: '50%',
       origin: 'bottom',
       opacity: 0
     };
     ScrollReveal().reveal('.slide', slideUp);
   </script>
+  <script>alert('Atenção: A Representação rodrigues está contratando, entre em contato e saiba mais!')</script>
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="js/jquery.js"></script>
   <script src="js/popper.js"></script>
