@@ -10768,7 +10768,6 @@ a.text-dark:hover, a.text-dark:focus {
 * {
   font-family: 'Poppins', sans-serif;
   scroll-behavior: smooth;
-  letter-spacing: 2px;
   padding: 0;
   margin: 0;
 }
@@ -10827,6 +10826,10 @@ p {
 small {
   font-size: 12px;
   color: grey;
+}
+
+.nav-item {
+  padding: 0px 5px;
 }
 
 .wallhome {
