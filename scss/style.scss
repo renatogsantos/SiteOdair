@@ -10,7 +10,7 @@
 }
 
 body {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 25, 59, 0.8) 100%), url("../assets/wall.png");
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 25, 59, 0.5) 100%), url("../assets/wall.png");
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
@@ -19,41 +19,28 @@ body {
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 3.5rem;
   font-weight: 800;
-}
-
-@media screen and (max-width: 720px) {
-  h1 {
-    font-size: 2em;
-    font-weight: 800;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    font-weight: 800;
-  }
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-  font-size: 2rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
 }
 
 h3 {
-  font-size: 1.17em;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
 }
 
-h4 {
-  font-size: 1.12em;
-}
-
-h5 {
-  font-size: .83em;
-}
-
-h6 {
-  font-size: .75em;
+span {
+  color: #ff3300;
 }
 
 p {
@@ -93,11 +80,11 @@ small {
 
 .divisor {
   height: 5px;
-  width: 15%;
+  width: 25px;
   margin: 15px 0;
   border-radius:20px;
   background: rgb(2, 36, 83);
-  background: linear-gradient(90deg, rgba(2, 36, 83, 1) 0%, rgba(61, 121, 207, 1) 100%);
+  background:  rgba(61, 121, 207, 1);
 }
 
 .img-grey:not(hover) {
@@ -115,7 +102,7 @@ small {
 }
 
 .hero1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)), url("../assets/wall2.png");
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../assets/wall2.png");
   background-attachment: fixed;
   background-position: bottom;
   background-repeat: no-repeat;
